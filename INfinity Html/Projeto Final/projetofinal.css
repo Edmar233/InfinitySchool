@@ -46,8 +46,8 @@ nav ul{
 }
 
 nav li{
-    display: inline;
-    list-style-type: none;
+    padding: 3%;
+    
     
 }
 nav a{
@@ -74,3 +74,9 @@ section p {
     padding: 10px;
 
 }    
+
+@media (min-width: 768px){
+    nav li{
+        display: inline;
+    }
+}
