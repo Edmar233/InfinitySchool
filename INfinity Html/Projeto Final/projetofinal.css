@@ -1,8 +1,7 @@
 
 body {
     padding: 0;
-    width: 70%;
-    margin: auto;
+    margin: 0;
     background-color: aquamarine;
 }
 
@@ -76,6 +75,11 @@ section p {
 }    
 
 @media (min-width: 768px){
+    body{
+        width: 70%;
+        margin: auto;
+    }
+
     nav li{
         display: inline;
     }
