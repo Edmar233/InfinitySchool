@@ -13,8 +13,7 @@ header{
     grid-template-rows:auto;
     gap: 20px;
     padding: 40px;
-    margin: 40px;
-    margin-left: ;
+    margin-left: 150px;
 }    
 
 .img img {
@@ -24,6 +23,6 @@ header{
     box-shadow: 10px 10px silver ;
    
 }
-   
+
 
 
