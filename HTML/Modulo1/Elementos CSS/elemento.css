@@ -1,0 +1,40 @@
+.bloco {
+    display: block;
+}
+
+.linha{
+    display: inline;
+}
+
+.linha-bloco{
+    display: inline-block;
+}
+
+.oculto{
+    display: none;
+}
+
+.visivel{
+    visibility: visible;
+}
+
+.relativo{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.absulte{
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+.grudento{
+    position: sticky;
+    top: 0;
+}
+
+.invisivel{
+    visibility: hidden;
+}
