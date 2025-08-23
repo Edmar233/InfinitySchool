@@ -1,0 +1,15 @@
+.cabecalho {
+    color: purple;
+}
+
+.borda {
+    border: 5px solid red;
+    border-radius: 20px;
+}
+
+.imagem{
+    width: 300px;
+    border: 2px solid red;
+    border-radius: 25px;
+
+}
