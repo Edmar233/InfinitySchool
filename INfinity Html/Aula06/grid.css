@@ -7,21 +7,28 @@ header{
     font-size: 50px;
 }
 
-.grid-container{
+.grid-gallery{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:auto;
     gap: 20px;
-    padding: 40px;
+    padding: 10px;
     margin-left: 150px;
 }    
 
-.img img {
+img{
     height: 200px;
     width: 200px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    border-radius: 20%;
     border: 3px solid black;
     box-shadow: 10px 10px silver ;
    
+}
+
+img:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
 }
 
 
