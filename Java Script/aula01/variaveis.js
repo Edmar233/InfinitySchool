@@ -8,3 +8,8 @@
 //const cpf = "12345678877"
 //alert(cpf)
 
+var minhaVariavel
+let variavelLet
+const variavelConst
+variavelGlobal
+
