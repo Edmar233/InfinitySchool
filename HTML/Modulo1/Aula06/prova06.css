@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    border: 2px solid black;
+    box-shadow: 10px 5px rgb(119, 98, 98) ;
+}
+
+@media (max-width: 600px){ /*Dipositivos Móveis*/
+    .container{
+        justify-content: left;
+    }
+}
+
+@media (min-width: 1024px){ /*Desktops*/
+    .container{
+      width: 100%;         
+      max-width: 500px;    
+      margin: 0 auto;      
+    }
+}
+
+@media (min-width: 600px ) and (max-width: 768px){ /*Tablets*/
+    justify-content: left;
+}
+
+.botaoEnviar{
+    border-radius: 40%;  
+    background-color: yellow;  
+}
+
+
+.botaoEnviar:hover{
+    transform: scale(1.2); 
+    background-color: yellowgreen;   
+}
+
+.botaoLimpar{
+    border-radius: 40%;
+    background-color: aqua;
+}
+
+.botaoLimpar:hover{
+    transform: scale(1.2);
+    opacity: 0.3s ease;
+    background-color: blue;
+}
+
+label{
+          
+    border: 1px solid black;  
+    border-radius: 5px;      
+}
+
