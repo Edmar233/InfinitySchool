@@ -8,11 +8,10 @@ function saudacao(){
         if (nome === "0") {
             console.log(`Programa encerrado. Até mais!`);
             break
-        
         }
         nomes.push(nome);
-        console.log(`Seja(m) bem vindo(s) !!! ${nome.join(", ")}`);
-        
     }
+    console.log(`Seja(m) bem vindo(s) !!! ${nomes.join(", ")}`);
 }
+
 saudacao();
