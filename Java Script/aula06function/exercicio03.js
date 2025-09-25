@@ -10,8 +10,8 @@ console.log(soma(1, 2, 3));
 console.log(soma(10, 20, 30, 40, 50));
 
 
-function multiplicar(a,b){
-    return a * b;
-}
+// function multiplicar(a,b){
+//     return a * b;
+// }
 
-console.log(multiplicar(5, 6));
+// console.log(multiplicar(5, 6));
