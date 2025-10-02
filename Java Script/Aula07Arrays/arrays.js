@@ -1,5 +1,6 @@
 const numeros =[1,2,3,4,5,6,0] 
 // EXERCICIO 01 (forEach)
+
 // numeros.forEach((numero, posicao) => {
 //     // console.log(`O elemento na posição ${posicao} é ${numero}`);
 //     if (numero > 0 ){
@@ -13,6 +14,7 @@ const numeros =[1,2,3,4,5,6,0]
 // });
 
 //EXERCICIO 02(Map)
+
 // const quadrados = numeros.map((numero)=> {
 //     return numero * numero
 // });
