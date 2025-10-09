@@ -13,7 +13,7 @@ const numeros =[1,2,3,4,5,6,0]
 
 // });
 
-//EXERCICIO 02(Map)
+// EXERCICIO 02(Map)
 
 // const quadrados = numeros.map((numero)=> {
 //     return numero * numero
@@ -51,12 +51,26 @@ const numeros =[1,2,3,4,5,6,0]
 
 //EXERCICIO 07 (Every - Todos os Elementos devem atender a consição)
 
-const todos = numeros.every((numero)=>{
-    return numero > 0;
+// const todos = numeros.every((numero)=>{
+//     return numero > 0;
 
-});
-if (todos === true){
-    console.log(`Todos os elementos são positivos e maiores que zero`)
-}else 
-console.log(`Há elementos negativos ou iguais a zero`)
+// });
+// if (todos === true){
+//     console.log(`Todos os elementos são positivos e maiores que zero`)
+// }else 
+// console.log(`Há elementos negativos ou iguais a zero`)
+
+// Exercicio Aula Presencial
+const nomes= []
+for (let i =0; i < 5 ;i++){
+    nomes.push(prompt(`Indique o ${i+1} nome: `))
+}
+console.log(nomes)
+
+const primeiraLetra = nomes.find((letra) => letra.toLocaleLowerCase().startsWith("A") )
+
+const todosComMaisDe3Letras = nomes.every((nome) => nome.length >= 3)
+
+const nomesMinusculos = nomes.
+
 
